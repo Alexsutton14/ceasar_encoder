@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Ceasar Encoder</title>
+    </head>
+    <body>
+        <h1>Ceasar Encoder</h1>
+        <form>
+            <label for="input_string">String to encode</label>
+            <input type="text" name="string" id="input_string">
+            <br>
+            <label for="offset">Offset amount</label>
+            <input type="number" name="offset" id="offset">
+            <br>
+            <input type="submit" value="submit">
+        </form>
+        <p>
+        Output:<br>
+        <%= encoded_string %>
+        </p>
+    </body>
+</html>
